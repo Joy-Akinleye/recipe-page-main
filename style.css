@@ -165,5 +165,13 @@ td {
         max-width: 100%;
         padding: 1rem;
         margin-block-start: 0;
+        border-radius: 0;
+    }
+}
+
+@media (min-width: 769px ) and (max-width: 1023px) {
+    .container {
+        max-width: 55rem;
+        margin-block-start: 2rem;
     }
 }
